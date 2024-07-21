@@ -51,6 +51,7 @@ function multiply(numbers) {
     return numbers.reduce((acc, num) => acc * num, 1);
 }
 
+
 console.log("Expected output of sum([1, 2, 3, 4]) is 10 and " +
     myFunctionTest(10, function() { return sum([1, 2, 3, 4]); }));
 console.assert(sum([1, 2, 3, 4]) === 10, "TEST FAILED");
